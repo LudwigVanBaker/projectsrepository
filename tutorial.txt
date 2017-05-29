@@ -1,0 +1,6 @@
+//esto es para saber quien hizo los cambios en el proyecto
+$ git config --global user.name "carlos"
+$ git config --global user.mail car_an_107@hotmail.com
+
+$ git init: se usa para iniciar el proyecto
+$ git status: se usa para saber el estado de nuestro proyecto
