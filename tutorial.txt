@@ -1,6 +1,26 @@
-//esto es para saber quien hizo los cambios en el proyecto
-$ git config --global user.name "carlos"
-$ git config --global user.mail car_an_107@hotmail.com
+$ git config user.name "carlos"
+$ git config user.mail "car_an_107@hotmail.com"
+$ git push origin
+cd
+mkdir
 
-$ git init: se usa para iniciar el proyecto
+$ git log y luego copias el codigo sha-1 y lo pones en $ git checkout para regresar en el tiempo O_O
+pero si quieres volver al ultimo  commit, usas $ git checkout master 
+
+$ git chekcout, para moverse entre commits y ramas
+$ git init
+$ git add index.html
+$ git commit: se usa para abrir el archivo (se requiere autenticacion de usuario y mail ante) al parecer edita al ultimo add que hayas hecho
+$ git reset --soft y pones el codigo sha-1 del commit, esto es para borrar commits sin tocar el codigo
+$ git branch y le pones nombre de rama, es como una linea de tiempo extra al master
+$ git merge y lep ones el nombre de la rama para combianruna rama con master
+wq sales del lugar donde estabas
+
+//4to paso
+presiona ESC, luego escribes :wq y presionas ENTER para salir
+
+//5to paso
+$ git diff: para ver lo que hemos modificado
+
+
 $ git status: se usa para saber el estado de nuestro proyecto
